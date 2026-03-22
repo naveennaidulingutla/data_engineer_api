@@ -1,0 +1,2108 @@
+[
+  {
+    "question": "How often do you clean in between your teeth?",
+    "level_description": [
+      "1.More than twice per day",
+      "2.Twice per day",
+      "3.Once per day",
+      "4.Every few days",
+      "5.Less than every few days",
+      "6.Only when you need to remove something from your teeth",
+      "7.Never"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "childquestion": "When you clean in between your teeth, what do you use most often?",
+        "level_description": [
+          "1.Dental floss",
+          "2.Disposable dental flossers",
+          "3.Interproximal brushes",
+          "4.Toothpicks",
+          "5.Water flosser",
+          "6.Other, please specify: [TEXTBOX]"
+        ],
+        "levels": []
+      }
+    ]
+  },
+  {
+    "question": "Do you plan on seeing a dental provider in the next year for routine or preventive care?",
+    "level_description": [
+      "1.YES",
+      "2.NO",
+      "77.UNSURE"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Why do you plan on seeing a dental provider in the next year for routine or preventive care?",
+        "level_description": [
+          "1.It is important to maintain [IF CAWI: my][IF CATI: your] oral health",
+          "2.Avoid painful oral health problems",
+          "3.Avoid cost of an urgent dental visit",
+          "4.Avoid stress of an urgent dental visit",
+          "5.It is covered by [IF CAWI: my][IF CATI: your] insurance plan",
+          "6.Other, please specify: [TEXTBOX]"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "2",
+          "77"
+        ],
+        "childquestion": "Which of the following reasons explain why you do not plan on seeing a dental provider in the next year for routine or preventive care?",
+        "level_description": [
+          "1.Fear of COVID-19 exposure",
+          "2.Fear of the dentist or procedures",
+          "3.Cost",
+          "4.No insurance",
+          "5.No need",
+          "6.You wear dentures/have no permanent teeth",
+          "7.You don't think the dental team will respect you",
+          "8.You don’t trust that the dental team will act in your best interest",
+          "9.You delayed care during the COVID-19 pandemic and now you are worried the oral health provider will find problems with your teeth",
+          "10.Other, please specify: [TEXTBOX] [ANCHOR]"
+        ],
+        "levels": []
+      }
+    ]
+  },
+  {
+    "question": "Not including teeth lost due to injury, wisdom teeth extraction, or orthodontics, how many of your permanent teeth have been removed because of tooth decay or gum disease?",
+    "level_description": [
+      "1.None",
+      "2.1-5",
+      "3.6 or more but not all",
+      "4.All"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "2",
+          "3",
+          "4"
+        ],
+        "childquestion": "Please select any of the following options that have been used to replace your missing teeth, if any.",
+        "level_description": [
+          "1.Flipper (removable retainer with a prosthetic tooth attached)",
+          "2.Implant(s) with crown(s)",
+          "3.Bridge(s) (permanently fixed)",
+          "4.Partial(s) (removable)",
+          "5.Full upper denture (removable)",
+          "6.Full lower denture (removable)",
+          "7.Denture anchored with implants (removable)",
+          "8.No prosthesis or implants [SP]"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "childquestion": "How often do you wear your removable appliance(s)?",
+            "level_description": [
+              "1.Always even when sleeping",
+              "2.Always except when sleeping",
+              "3.Only when in public or around other people",
+              "4.Only when eating",
+              "5.Rarely",
+              "6.Never"
+            ],
+            "levels": [
+              {
+                "level_code": [
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ],
+                "childquestion": "Why do you not wear your removable dental appliance(s)?",
+                "level_description": [
+                  "1.Doesn’t look good",
+                  "2.Is uncomfortable to wear",
+                  "3.Slips when talking and/or eating ",
+                  "4.Forget to put it in",
+                  "5.It is broken",
+                  "6.[IF CAWI: I][IF CATI: You] don’t know where it is",
+                  "7.Other, please specify: [TEXTBOX]"
+                ],
+                "levels": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "In the last year, have you visited a hospital emergency department (ED) or an emergency room (ER) for dental care or pain/discomfort in your mouth?",
+    "level_description": [
+      "1.YES",
+      "2.NO"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Why did you visit the emergency room instead of an oral health provider?",
+        "level_description": [
+          "1.Symptoms required immediate attention",
+          "2.[IF CAWI: My][IF CATI: Your] insurance didn’t cover oral health",
+          "3.Symptoms beyond just oral health care",
+          "4.Other, please specify: [TEXTBOX]"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Were you referred to an oral health provider (i.e. dentist, hygienist, etc.) following your visit?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "Did you follow through with the referral and seek care from the recommended oral health provider?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77.DON’T KNOW"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Were you prescribed medication at your hospital visit?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "What kind of medication were you prescribed?",
+            "level_description": [
+              "1.Pain medication",
+              "2.Antibiotics",
+              "3.Other, please specify: [TEXTBOX]"
+            ],
+            "levels": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "In the last twelve months, have you ever had any of the following symptoms:",
+    "level_description": [
+      "1.Swollen or bleeding gums",
+      "2.Pain when you chew or swallow",
+      "3.Chronic bad breath ",
+      "4.A toothache",
+      "5.Cracked or broken teeth",
+      "6.Swelling of the face or cheek",
+      "7.Pain in the jaw or temporomandibular joint (TMJ) pain",
+      "8.Frequent dry mouth",
+      "9.Ulcers, sores or tender areas in the mouth that don’t heal on their own",
+      "10.Less enjoyment of food",
+      "11.Difficulty chewing foods",
+      "12.None of the above [ANCHOR] [SP]"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "childquestion": "Did you try to use any at home remedies to manage pain, infection, or other issues in your mouth?",
+        "level_description": [
+          "1.YES",
+          "2.NO"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "Which of the following, if any, have you used in the last year to manage pain, infection, or other issue in your mouth?",
+            "level_description": [
+              "1.Saltwater gargle",
+              "2.Hydrogen peroxide rinse",
+              "3.Clove oil",
+              "4.Temporary filling paste",
+              "5.Aspirin powder placed directly on the tooth",
+              "6.Over the counter pain medication that you swallow like Advil or Tylenol",
+              "7.Over the counter numbing agent like Orajel",
+              "8.Pain medication that was prescribed for another purpose",
+              "9.Liquor/alcohol",
+              "10.Cannabis/marijuana",
+              "11.Heat compress",
+              "12.Cold compress or ice",
+              "13.Other, please specify: [TEXTBOX]"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "childquestion": "Of the symptoms you have experienced in the last twelve months, which was the most severe or concerning to you?",
+        "level_description": [
+          "1.Swollen or bleeding gums",
+          "2.Pain when you chew or swallow",
+          "3.Chronic bad breath ",
+          "4.A toothache",
+          "5.Cracked or broken teeth",
+          "6.Swelling of the face or cheek",
+          "7.Pain in the jaw or temporomandibular joint (TMJ) pain",
+          "8.Frequent dry mouth",
+          "9.Ulcers, sores or tender areas in the mouth that don’t heal on their own",
+          "10.Less enjoyment of food",
+          "11.Difficulty chewing foods"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11"
+            ],
+            "childquestion": "Did you visit a dentist, oral health provider, or emergency department about the symptom?",
+            "level_description": [
+              "1.Yes, you went to the dentist or oral health provider",
+              "2.Yes, you went to the emergency department",
+              "3.No, you went to neither"
+            ],
+            "levels": [
+              {
+                "level_code": [
+                  "1",
+                  "2"
+                ],
+                "childquestion": "Did you have a procedure or treatment that helped fix the problem?",
+                "level_description": [
+                  "1.YES",
+                  "2.NO"
+                ],
+                "levels": []
+              },
+              {
+                "level_code": [
+                  "3"
+                ],
+                "childquestion": "Why did you not visit a dentist, oral health provider, or emergency department about the symptom?",
+                "level_description": [
+                  "1.Could not afford it",
+                  "2.Could not find a provider who accepts your insurance",
+                  "3.Could not find a provider that would see you, regardless of your insurance",
+                  "4.Could not get an appointment soon enough",
+                  "5.Could not get an appointment at a time that you could make it, due to work or care responsibilities",
+                  "6.Could not get to the provider’s office (transportation problems or too far to drive)",
+                  "7.Afraid of the dentist",
+                  "8.The problem wasn’t severe enough",
+                  "9.Could not go because dental practice was shut down due to the pandemic",
+                  "10.You were afraid of COVID-19 exposure in dental office",
+                  "11.You haven’t gotten to it yet, but plan to in the next year",
+                  "12.You didn’t think they would respect you",
+                  "13.You didn’t trust that the dentist will act in your best interest",
+                  "14.Other, please specify: [TEXTBOX] [ANCHOR]"
+                ],
+                "levels": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "childquestion": "In the last year, have these oral health symptoms caused you to miss work or school due to <u>pain or discomfort in your mouth</u>?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "How many hours or days of work or school have you missed due to <u>pain or discomfort in your mouth</u> in the past year?",
+            "level_description": [
+              "1.0-4 hours",
+              "2.5-8 hours",
+              "3.1 Day",
+              "4.2 Days",
+              "5.3-5 days",
+              "6.6 or more days"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "childquestion": "When was your last visit to a dentist?",
+        "level_description": [
+          "1.Less than 6 months ago",
+          "2.Between 6 months ago and one year ago",
+          "3.More than a year and less than two years ago",
+          "4.More than 2 and less than 5 years ago",
+          "5.5 or more years ago",
+          "6.Never"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1",
+              "2"
+            ],
+            "childquestion": "In the last year, have you missed work or school due to an <u>unexpected dental visit</u>?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77.DON’T KNOW"
+            ],
+            "levels": [
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "How many hours of work or school have you missed due to <u>unexpected dental visits</u> in the past year?",
+                "level_description": [
+                  "1.1-2 hours",
+                  "2.3-4 hours",
+                  "3.5-8 hours",
+                  "4.1 day",
+                  "5.2 days",
+                  "6.3 or more days"
+                ],
+                "levels": []
+              }
+            ]
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "childquestion": "How much do you agree with the following statements about your last oral health visit? Would you say strongly agree, somewhat agree, somewhat disagree, or strongly disagree?] \n(At your last oral health visit, your dental provider believed you when you reported your oral health needs, knowledge, and behaviors.)",
+            "level_description": [
+              "1.Strongly agree",
+              "2.Somewhat agree",
+              "3.Neither agree nor disagree",
+              "4.Somewhat disagree",
+              "5.Strongly disagree"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3"
+            ],
+            "childquestion": "Did you delay your last dental appointment due to COVID-19?",
+            "level_description": [
+              "1.Yes",
+              "2.No, [IF CAWI: I; IF CATI: you] did not delay [IF CAWI: my][IF CATI: your] scheduled appointment",
+              "3.No, [IF CAWI: I; IF CATI: you] did not have an appointment scheduled"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3"
+            ],
+            "childquestion": "Have you received sedation at a dental visit in the last two years?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77.DON’T KNOW"
+            ],
+            "levels": [
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "Where did the sedation occur?",
+                "level_description": [
+                  "1.Dental office",
+                  "2.Hospital setting",
+                  "3.Other, please specify: [TEXTBOX]"
+                ],
+                "levels": []
+              },
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "For which of the following types of procedures have you received sedation in the last 2 years?",
+                "level_description": [
+                  "1.Oral surgery, like an extraction",
+                  "2.Restoration, like a crown or filling",
+                  "3.Root canal",
+                  "4.Periodontal procedure, like root planing and scaling",
+                  "5.Cleaning"
+                ],
+                "levels": []
+              },
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "Which best describes why you received sedation at your most recent procedure?",
+                "level_description": [
+                  "1.Your dentist recommended it",
+                  "2.You requested it because you were worried the procedure would be painful or uncomfortable",
+                  "3.You requested it because you had anxiety about the procedure",
+                  "4.Other, please specify [TEXTBOX] [ANCHOR]",
+                  "77.Unsure [ANCHOR]"
+                ],
+                "levels": []
+              }
+            ]
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "childquestion": "How much do you agree or disagree with the following statements? \n(A dentist should always choose the least invasive procedure first, even if it doesn’t work every time.)",
+            "level_description": [
+              "1.STRONGLY AGREE",
+              "2.SOMEWHAT AGREE",
+              "3.SOMEWHAT DISAGREE",
+              "4.STRONGLY DISAGREE"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "childquestion": "Would you prefer to have your medical and dental insurance provided through the same insurance company?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77.DON’T KNOW"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "childquestion": "Do you think oral health providers should be financially rewarded by insurance companies for how healthy their patients are?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77.YOU DON’T KNOW"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "childquestion": "Are the treatment decisions your oral health provider makes based more often on the best care for you or more often on what is most profitable for the provider?",
+            "level_description": [
+              "1.Based on the best care for you",
+              "2.Based on what is most profitable for the provider"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "childquestion": "Do you have a single dentist or dental office that is your usual source of dental care?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77.DON’T KNOW"
+            ],
+            "levels": [
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "What kind of dental office is your usual source of dental care?",
+                "level_description": [
+                  "1.Private practice",
+                  "2.Dental service organization or practice affiliated with a franchise (Heartland Dental, Aspen Dental, Pacific Dental Services, etc.)",
+                  "3.Community health center",
+                  "4.Other, please specify: [TEXTBOX]",
+                  "77.Don’t know"
+                ],
+                "levels": []
+              },
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "At your next dental visit, would you be willing to receive care from a dental therapist? Dental therapists are licensed professionals who are not dentists or dental hygienists but have received specific training and certification to provide routine preventive and restorative care, like fillings.",
+                "level_description": [
+                  "1.YES",
+                  "2.NO",
+                  "77.DON’T KNOW"
+                ],
+                "levels": []
+              }
+            ]
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "childquestion": "Teledentistry</u> is the use of interactive audio, video, or data communications to get dental or oral health care. Have you have ever been seen through teledentistry?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77.DON’T KNOW"
+            ],
+            "levels": [
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "When was your last teledentistry visit?",
+                "level_description": [
+                  "1.Within the last three months",
+                  "2.Within the last six months",
+                  "3.Within the last year",
+                  "4.More than a year ago"
+                ],
+                "levels": []
+              },
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "What method was used to complete the visit?",
+                "level_description": [
+                  "1.Phone",
+                  "2.Video application like Zoom, FaceTime, Google Meetings",
+                  "3.Other video application that your dentist had",
+                  "4.Email ",
+                  "5.Text messaging",
+                  "6.Went to dental office, where a staff member took a recording and the dentist reviewed later",
+                  "7.Other, please specify: [TEXTBOX] [ANCHOR]"
+                ],
+                "levels": []
+              },
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "What was the reason for your last teledentistry visit?",
+                "level_description": [
+                  "1.Fear of COVID-19",
+                  "2.Follow-up visit from a procedure",
+                  "3.In need of a prescription",
+                  "4.Dental office was closed for in-person visits due to COVID-19",
+                  "5.Having a problem with tooth or mouth, and a dentist was not available for in-person visit (office not closed)",
+                  "6.Other, please specify: [TEXTBOX] [ANCHOR]"
+                ],
+                "levels": []
+              },
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "How would you rate your general experience with teledentistry?",
+                "level_description": [
+                  "1.Very satisfied",
+                  "2.Somewhat satisfied",
+                  "3.Somewhat unsatisfied",
+                  "4.Very unsatisfied"
+                ],
+                "levels": []
+              },
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "How would you rate your teledentistry visit compared to a face-to-face encounter?",
+                "level_description": [
+                  "1.Better than a face-to-face visit",
+                  "2.About the same as a face-to-face visit",
+                  "3.Worse than a face-to-face visit"
+                ],
+                "levels": []
+              },
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "How likely are you to use teledentistry again if it is offered?",
+                "level_description": [
+                  "1.Very likely",
+                  "2.Somewhat likely",
+                  "3.Not very likely",
+                  "4.Not at all likely"
+                ],
+                "levels": []
+              },
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "After your teledentistry appointment, did you have a follow-up face-to-face appointment for needed treatment?",
+                "level_description": [
+                  "1.Yes",
+                  "2.No",
+                  "3.No, the teledentistry appointment fixed [IF CAWI: my][IF CATI: your] issue"
+                ],
+                "levels": []
+              }
+            ]
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "childquestion": "How much do you agree or disagree with the following statements? \n(Teledentistry would improve your access to oral health care services.)",
+            "level_description": [
+              "1.STRONGLY AGREE",
+              "2.SOMEWHAT AGREE ",
+              "3.SOMEWHAT DISAGREE ",
+              "4.STRONGLY DISAGREE"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "childquestion": "How much do you agree or disagree with the following statements? \n(B.\tIf you had the option of choosing between an in-office visit or a teledentistry visit, you would choose teledentistry.)",
+            "level_description": [
+              "1.STRONGLY AGREE",
+              "2.SOMEWHAT AGREE ",
+              "3.SOMEWHAT DISAGREE ",
+              "4.STRONGLY DISAGREE"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "childquestion": "How much do you agree or disagree with the following statements? \n(C.\tTeledentistry would provide for your oral health needs.)",
+            "level_description": [
+              "1.STRONGLY AGREE",
+              "2.SOMEWHAT AGREE ",
+              "3.SOMEWHAT DISAGREE ",
+              "4.STRONGLY DISAGREE"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "childquestion": "Does your oral health care provider have teledentistry as an option for visits?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77.DON’T KNOW"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "6",
+              "77",
+              "98",
+              "99"
+            ],
+            "childquestion": "Teledentistry is the use of interactive audio, video, or data communications to get dental or oral health care.] Would you be willing to visit a dentist in the next year if you could be seen via a remote option, such as teledentistry?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77.DON’T KNOW"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3"
+            ],
+            "childquestion": "How far do you travel currently to visit your dentist?",
+            "level_description": [
+              "1.Up to 15 minutes",
+              "2.Up to 30 minutes",
+              "3.Up to 45 minutes",
+              "4.Up to an hour",
+              "5.An hour or more"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3"
+            ],
+            "childquestion": "How much do you spend on average in out-of-pocket costs for visits to your dentist, including premiums and co-pays?",
+            "level_description": [
+              "1.Less than $500 a year",
+              "2.$500 to $999 a year",
+              "3.$1,000 to $1,999 a year",
+              "4.$2,000 to $2,999 a year",
+              "5.Over $3,000 a year"
+            ],
+            "levels": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "When was your last visit to a dentist?",
+    "level_description": [
+      "1.Less than 6 months ago",
+      "2.Between 6 months ago and one year ago",
+      "3.More than a year and less than two years ago",
+      "4.More than 2 and less than 5 years ago",
+      "5.5 or more years ago",
+      "6.Never"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1",
+          "2"
+        ],
+        "childquestion": "In the last year, have you missed work or school due to an <u>unexpected dental visit</u>?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "How many hours of work or school have you missed due to <u>unexpected dental visits</u> in the past year?",
+            "level_description": [
+              "1.1-2 hours",
+              "2.3-4 hours",
+              "3.5-8 hours",
+              "4.1 day",
+              "5.2 days",
+              "6.3 or more days"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "childquestion": "How much do you agree with the following statements about your last oral health visit? Would you say strongly agree, somewhat agree, somewhat disagree, or strongly disagree?] \n(At your last oral health visit, your dental provider believed you when you reported your oral health needs, knowledge, and behaviors.)",
+        "level_description": [
+          "1.Strongly agree",
+          "2.Somewhat agree",
+          "3.Neither agree nor disagree",
+          "4.Somewhat disagree",
+          "5.Strongly disagree"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3"
+        ],
+        "childquestion": "Did you delay your last dental appointment due to COVID-19?",
+        "level_description": [
+          "1.Yes",
+          "2.No, [IF CAWI: I; IF CATI: you] did not delay [IF CAWI: my][IF CATI: your] scheduled appointment",
+          "3.No, [IF CAWI: I; IF CATI: you] did not have an appointment scheduled"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3"
+        ],
+        "childquestion": "Have you received sedation at a dental visit in the last two years?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "Where did the sedation occur?",
+            "level_description": [
+              "1.Dental office",
+              "2.Hospital setting",
+              "3.Other, please specify: [TEXTBOX]"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "For which of the following types of procedures have you received sedation in the last 2 years?",
+            "level_description": [
+              "1.Oral surgery, like an extraction",
+              "2.Restoration, like a crown or filling",
+              "3.Root canal",
+              "4.Periodontal procedure, like root planing and scaling",
+              "5.Cleaning"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "Which best describes why you received sedation at your most recent procedure?",
+            "level_description": [
+              "1.Your dentist recommended it",
+              "2.You requested it because you were worried the procedure would be painful or uncomfortable",
+              "3.You requested it because you had anxiety about the procedure",
+              "4.Other, please specify [TEXTBOX] [ANCHOR]",
+              "77.Unsure [ANCHOR]"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "childquestion": "How much do you agree or disagree with the following statements? \n(A dentist should always choose the least invasive procedure first, even if it doesn’t work every time.)",
+        "level_description": [
+          "1.STRONGLY AGREE",
+          "2.SOMEWHAT AGREE",
+          "3.SOMEWHAT DISAGREE",
+          "4.STRONGLY DISAGREE"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "childquestion": "Would you prefer to have your medical and dental insurance provided through the same insurance company?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "childquestion": "Do you think oral health providers should be financially rewarded by insurance companies for how healthy their patients are?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.YOU DON’T KNOW"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "childquestion": "Are the treatment decisions your oral health provider makes based more often on the best care for you or more often on what is most profitable for the provider?",
+        "level_description": [
+          "1.Based on the best care for you",
+          "2.Based on what is most profitable for the provider"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "childquestion": "Do you have a single dentist or dental office that is your usual source of dental care?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "What kind of dental office is your usual source of dental care?",
+            "level_description": [
+              "1.Private practice",
+              "2.Dental service organization or practice affiliated with a franchise (Heartland Dental, Aspen Dental, Pacific Dental Services, etc.)",
+              "3.Community health center",
+              "4.Other, please specify: [TEXTBOX]",
+              "77.Don’t know"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "At your next dental visit, would you be willing to receive care from a dental therapist? Dental therapists are licensed professionals who are not dentists or dental hygienists but have received specific training and certification to provide routine preventive and restorative care, like fillings.",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77.DON’T KNOW"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "childquestion": "Teledentistry</u> is the use of interactive audio, video, or data communications to get dental or oral health care. Have you have ever been seen through teledentistry?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "When was your last teledentistry visit?",
+            "level_description": [
+              "1.Within the last three months",
+              "2.Within the last six months",
+              "3.Within the last year",
+              "4.More than a year ago"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "What method was used to complete the visit?",
+            "level_description": [
+              "1.Phone",
+              "2.Video application like Zoom, FaceTime, Google Meetings",
+              "3.Other video application that your dentist had",
+              "4.Email ",
+              "5.Text messaging",
+              "6.Went to dental office, where a staff member took a recording and the dentist reviewed later",
+              "7.Other, please specify: [TEXTBOX] [ANCHOR]"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "What was the reason for your last teledentistry visit?",
+            "level_description": [
+              "1.Fear of COVID-19",
+              "2.Follow-up visit from a procedure",
+              "3.In need of a prescription",
+              "4.Dental office was closed for in-person visits due to COVID-19",
+              "5.Having a problem with tooth or mouth, and a dentist was not available for in-person visit (office not closed)",
+              "6.Other, please specify: [TEXTBOX] [ANCHOR]"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "How would you rate your general experience with teledentistry?",
+            "level_description": [
+              "1.Very satisfied",
+              "2.Somewhat satisfied",
+              "3.Somewhat unsatisfied",
+              "4.Very unsatisfied"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "How would you rate your teledentistry visit compared to a face-to-face encounter?",
+            "level_description": [
+              "1.Better than a face-to-face visit",
+              "2.About the same as a face-to-face visit",
+              "3.Worse than a face-to-face visit"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "How likely are you to use teledentistry again if it is offered?",
+            "level_description": [
+              "1.Very likely",
+              "2.Somewhat likely",
+              "3.Not very likely",
+              "4.Not at all likely"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "After your teledentistry appointment, did you have a follow-up face-to-face appointment for needed treatment?",
+            "level_description": [
+              "1.Yes",
+              "2.No",
+              "3.No, the teledentistry appointment fixed [IF CAWI: my][IF CATI: your] issue"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "childquestion": "How much do you agree or disagree with the following statements? \n(Teledentistry would improve your access to oral health care services.)",
+        "level_description": [
+          "1.STRONGLY AGREE",
+          "2.SOMEWHAT AGREE ",
+          "3.SOMEWHAT DISAGREE ",
+          "4.STRONGLY DISAGREE"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "childquestion": "How much do you agree or disagree with the following statements? \n(B.\tIf you had the option of choosing between an in-office visit or a teledentistry visit, you would choose teledentistry.)",
+        "level_description": [
+          "1.STRONGLY AGREE",
+          "2.SOMEWHAT AGREE ",
+          "3.SOMEWHAT DISAGREE ",
+          "4.STRONGLY DISAGREE"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "childquestion": "How much do you agree or disagree with the following statements? \n(C.\tTeledentistry would provide for your oral health needs.)",
+        "level_description": [
+          "1.STRONGLY AGREE",
+          "2.SOMEWHAT AGREE ",
+          "3.SOMEWHAT DISAGREE ",
+          "4.STRONGLY DISAGREE"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "childquestion": "Does your oral health care provider have teledentistry as an option for visits?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "6",
+          "77",
+          "98",
+          "99"
+        ],
+        "childquestion": "Teledentistry is the use of interactive audio, video, or data communications to get dental or oral health care.] Would you be willing to visit a dentist in the next year if you could be seen via a remote option, such as teledentistry?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3"
+        ],
+        "childquestion": "How far do you travel currently to visit your dentist?",
+        "level_description": [
+          "1.Up to 15 minutes",
+          "2.Up to 30 minutes",
+          "3.Up to 45 minutes",
+          "4.Up to an hour",
+          "5.An hour or more"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3"
+        ],
+        "childquestion": "How much do you spend on average in out-of-pocket costs for visits to your dentist, including premiums and co-pays?",
+        "level_description": [
+          "1.Less than $500 a year",
+          "2.$500 to $999 a year",
+          "3.$1,000 to $1,999 a year",
+          "4.$2,000 to $2,999 a year",
+          "5.Over $3,000 a year"
+        ],
+        "levels": []
+      }
+    ]
+  },
+  {
+    "question": "How often has your <u>primary oral health provider</u> asked about your <u>overall health</u>, either in person or on an intake form (do not include COVID-19 screenings)?",
+    "level_description": [
+      "1.Always",
+      "2.Often",
+      "3.Occasionally",
+      "4.Rarely",
+      "5.Never",
+      "6.Don’t have a primary oral health provider"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "childquestion": "Has your dentist ever given you a referral to a primary medical doctor?",
+        "level_description": [
+          "1.YES",
+          "2.NO"
+        ],
+        "levels": []
+      }
+    ]
+  },
+  {
+    "question": "Do you currently have <u>health</u> insurance?",
+    "level_description": [
+      "1.YES",
+      "2.NO"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "2"
+        ],
+        "childquestion": "When was the last time you had <u>health</u> insurance?",
+        "level_description": [
+          "1.Within the last year",
+          "2.1-2 years ago",
+          "3.3-5 years ago",
+          "4.6 or more years ago",
+          "5.Never"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "Why do you no longer have <u>health</u> insurance?",
+            "level_description": [
+              "1.Job loss",
+              "2.Took a new position that does not offer it",
+              "3.Benefits change by your company",
+              "4.Chose not to have it",
+              "5.Change in benefits due to COVID-19",
+              "6.Other, please specify: [TEXTBOX]"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "What is the primary <u>health</u> insurance that you have?",
+        "level_description": [
+          "1.Private Insurance through [IF CAWI: my][IF CATI: your]  employer or union",
+          "2.Private Insurance through a health insurance exchange",
+          "3.Medicaid",
+          "4.Medicare",
+          "5.Children’s Health Insurance Program (CHIP) ",
+          "6.Military ",
+          "7.Other State-Sponsored Health Plan ",
+          "8.Indian Health Services ",
+          "9.Other Government Programs ",
+          "10.Other, please specify: [TEXTBOX]"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "6"
+            ],
+            "childquestion": "Which type of military <u>health</u> insurance do you have?",
+            "level_description": [
+              "1.TRICARE",
+              "2.VA",
+              "3.CHAMP-VA ",
+              "4.Other, please specify: [TEXTBOX]"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "3"
+            ],
+            "childquestion": "Do you know if your Medicaid health insurance includes dental benefits?",
+            "level_description": [
+              "1.Yes, dental benefits are included in your Medicaid coverage",
+              "2.No, dental benefits are not included in your Medicaid coverage",
+              "3.You don’t know if dental benefits are included in your Medicaid coverage"
+            ],
+            "levels": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Do you currently have <u>dental</u> insurance?",
+    "level_description": [
+      "1.YES",
+      "2.NO"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "2"
+        ],
+        "childquestion": "When was the last time you had <u>dental</u> insurance?",
+        "level_description": [
+          "1.Within the last year",
+          "2.1-2 years ago",
+          "3.3-5 years ago",
+          "4.6 or more years ago",
+          "5.Never"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "Why do you no longer have <u>dental</u> insurance?",
+            "level_description": [
+              "1.Job loss",
+              "2.Took a new position that does not offer it",
+              "3.Benefits change by [IF CAWI: my][IF CATI: your] company",
+              "4.Chose not to have it",
+              "5.Change in benefits due to COVID-19",
+              "6.Other, please specify: [TEXTBOX]"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "What is the primary <u>dental</u> insurance that you have?",
+        "level_description": [
+          "1.Private Insurance through my employer or union",
+          "2.Private Insurance purchased on my own",
+          "3.Medicaid",
+          "4.Children’s Health Insurance Program (CHIP) ",
+          "5.Military ",
+          "6.Other State-Sponsored Health Plan ",
+          "7.Indian Health Services ",
+          "8.Other Government Programs ",
+          "9.Medicare Advantage or Supplemental plan",
+          "10.Other, please specify: [TEXTBOX]"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "5"
+            ],
+            "childquestion": "Which type of military dental insurance do you have?",
+            "level_description": [
+              "1.TRICARE",
+              "2.VA",
+              "3.CHAMP-VA ",
+              "4.Other, please specify: [TEXTBOX]"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Does your insurance cover teledentistry visits?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": []
+      }
+    ]
+  },
+  {
+    "question": "Within the last year, have you ever delayed care, missed an appointment, or been unable to obtain needed health care because of problems with your transportation?",
+    "level_description": [
+      "1.YES",
+      "2.NO"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "What was the reason(s) you could not get to the clinic?",
+        "level_description": [
+          "1. Your private vehicle was not available  ",
+          "2.Someone else drives [IF CAWI: me][IF CATI: you]– they were not available  ",
+          "3.Cost of transportation  ",
+          "4.Problems riding transit  ",
+          "5.Problems riding para-transit (dial-a-ride or medical taxi)  ",
+          "6.Problems walking or biking  ",
+          "7.Other, please specify: [TEXTBOX][ANCHOR]"
+        ],
+        "levels": []
+      }
+    ]
+  },
+  {
+    "question": "Have you experienced discrimination as a result of any of the following in your lifetime?",
+    "level_description": [
+      "1.Race/Ethnicity ",
+      "2.Age",
+      "3.Gender",
+      "4.Religion",
+      "5.Physical appearance",
+      "6.Sexual orientation",
+      "7.Language",
+      "8.A visible disability",
+      "9.An invisible disability",
+      "10.Other, please specify [TEXTBOX] [ANCHOR]",
+      "11.None of the above [ANCHOR][SP]",
+      "12.[IF CAWI: I’d][IF CATI: You’d] rather not say [ANCHOR][SP]"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "childquestion": "Do you experience discrimination on a weekly basis?",
+        "level_description": [
+          "1.Yes  ",
+          "2.No  ",
+          "3.You’d rather not say"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "childquestion": "Have you ever experienced discrimination in dental or oral health care?",
+        "level_description": [
+          "1.Yes  ",
+          "2.No  ",
+          "3.You’d rather not say"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "Have you been denied dental or oral health care due to discrimination?",
+            "level_description": [
+              "1.Yes  ",
+              "2.No  ",
+              "3.You’d rather not say"
+            ],
+            "levels": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Have you ever experienced discrimination in healthcare (such as at the doctor, in a hospital)?",
+    "level_description": [
+      "1.Yes  ",
+      "2.No  ",
+      "3.You’d rather not say"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Have you been denied healthcare due to discrimination?",
+        "level_description": [
+          "1.Yes  ",
+          "2.No  ",
+          "3.You’d rather not say"
+        ],
+        "levels": []
+      }
+    ]
+  },
+  {
+    "question": "Do you have caregiving responsibilities for another person or people who are over the age of 18 and need help taking care of themselves who live with you more than half of the time?",
+    "level_description": [
+      "1.YES",
+      "2.NO"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "How many people are you a caregiver for?",
+        "level_description": [
+          "1.1",
+          "2.2",
+          "3.3",
+          "4.4 or more"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "How would you describe the adult you provide care for?",
+        "level_description": [
+          "1.An adult with a physical disability",
+          "2.An adult with an intellectual or developmental disability",
+          "3.A person age 65 or older who can no longer take care of themselves",
+          "4.Other, please specify: [TEXTBOX]"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "How old is the person you take care of?",
+        "level_description": [
+          "1.18-34",
+          "2.35-54",
+          "3.55-74",
+          "4.75 or older"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "What is your relationship to the person you care for?",
+        "level_description": [
+          "1.Spouse",
+          "2.Child",
+          "3.Parent",
+          "4.Sibling",
+          "5.Other relative",
+          "6.Neighbor/Friend",
+          "7.Other, please specify: [TEXTBOX]"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Which of the following best describes the physical mobility status of the person you care for?",
+        "level_description": [
+          "1.They require assistance to get out of bed",
+          "2.They use a wheelchair",
+          "3.They use mobility aids",
+          "4.They are ambulatory without assistance",
+          "5.Other, please specify: [TEXTBOX]"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Does the person you care for have a dentist they usually go to for dental care?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "2"
+            ],
+            "childquestion": "What is the main reason they do not have a dentist that they usually go to for dental care?",
+            "level_description": [
+              "1.Seldom or never need dental care ",
+              "2.Cannot afford care ",
+              "3.Do not know where to go for dental care ",
+              "4.No accommodation available for communication with dentist  ",
+              "5.Dentist’s office/clinic or dental equipment (for example, dental chair) not physically accessible ",
+              "6.Cannot find a dentist who is competent in working with individuals with disabilities  ",
+              "7.Fear, apprehension, nervousness, or dislike of going to a dentist ",
+              "8.Concern that the person [IF CAWI: I][IF CATI: you] care for will have trouble controlling their behavior ",
+              "9.Other, please specify: [TEXTBOX]"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "How often is the person you care for seen by the dentist?",
+        "level_description": [
+          "1.At least once every 6 months",
+          "2.At least once per year",
+          "3.At least once every 2 years",
+          "4.Not routinely, only in emergency",
+          "5.They do not see the dentist"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3"
+            ],
+            "childquestion": "Does the facility provide the person you care for with special help and/or accommodations for their visit with a dentist or other oral health professionals, if needed? \n[SPACE]\n<unbold><i>Special help can be mouth rests, spacers, special toothbrushes, etc. Accommodations can include communication devices, large print, braille, interpreter, etc. </i>",
+            "level_description": [
+              "1.Yes ",
+              "2.No ",
+              "3.Accommodations not needed"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "During the past 12 months, has the person you care for been delayed in getting dental care, tests, or treatments that you or a dentist believed necessary?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77.DON’T KNOW"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "What was the main reason the person you care for was delayed in getting dental care, tests, or treatments that you or a dentist believed necessary?",
+            "level_description": [
+              "1.Could not afford care ",
+              "2.Dentist’s office/clinic or dental equipment (for example, dental chair) not physically accessible ",
+              "3.Dentist too far away from where [CAWI: I; CATI: you] live ",
+              "4.No transportation ",
+              "5.No appointments available ",
+              "6.No accommodation available for communication with dentists or oral health professionals ",
+              "7.Could not get time off work",
+              "8.Did not know where to go to get care",
+              "9.Fear, apprehension, nervousness, or dislike of going to a dentist ",
+              "10.Concern that the person [IF CAWI: I][IF CATI: you] care for will have trouble controlling their behavior ",
+              "11.No one available to take them",
+              "12.Need for sedation/anesthesia ",
+              "13.Other, please specify: [TEXTBOX][ANCHOR]"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "In general, how would you describe the overall general health of the person you care for?",
+        "level_description": [
+          "1.Excellent",
+          "2.Very Good",
+          "3.Good",
+          "4.Fair",
+          "5.Poor",
+          "77.You don’t know"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "How often are the teeth brushed of the person you care for?",
+        "level_description": [
+          "1.More than twice per day",
+          "2.Twice per day",
+          "3.Once per day",
+          "4.Every few days",
+          "5.Less than every few days",
+          "6.Never",
+          "77.[IF CAWI: I’m][IF CATI: You’re] not sure"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "How often do you clean/floss between their teeth?",
+        "level_description": [
+          "1.Twice a day or more",
+          "2.Once a day",
+          "3.Every few days",
+          "4.Never",
+          "5.Only when something needs to be removed from between their teeth"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Do they have tooth loss?",
+        "level_description": [
+          "1.All natural teeth, no dentures",
+          "2.Most natural teeth exist, no denture(s)",
+          "3.Partial tooth loss, wear denture(s)",
+          "4.Partial tooth loss, doesn’t wear denture(s)",
+          "5.Complete tooth loss, wear denture(s)",
+          "6.Complete tooth loss, doesn’t wear any denture(s)",
+          "77.[IF CAWI: I][IF CATI: You] don’t know"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "3",
+              "5"
+            ],
+            "childquestion": "How often are their dentures thoroughly cleaned, meaning brushed?",
+            "level_description": [
+              "1.Once a day with a rinse after every meal ",
+              "2.At least once per day",
+              "3.Once a week",
+              "4.Never",
+              "5.Does not wear any denture(s)"
+            ],
+            "levels": []
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Have you noticed any of following mouth problems with the person you care for?",
+        "level_description": [
+          "1.Swollen or bleeding gums",
+          "2.Pain when they chew or swallow",
+          "3.Chronic bad breath ",
+          "4.A toothache",
+          "5.Cracked or broken teeth",
+          "6.Swelling of the face or cheek",
+          "7.Pain in the jaw or temporomandibular joint (TMJ) pain",
+          "8.Frequent dry mouth",
+          "9.Ulcers, sores or tender areas in the mouth that don’t heal on their own",
+          "10.Less enjoyment of food",
+          "11.Difficulty chewing foods",
+          "12.[CAWI: I; CATI: You] haven’t noticed any mouth problems for them [ANCHOR][SP]",
+          "13.Other, please specify: [TEXTBOX][ANCHOR]"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11"
+            ],
+            "childquestion": "In the last year, has the person that you care for had unexpected dental visits or pain and discomfort in their mouth that kept them home/disrupted their normal schedule?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77.DON’T KNOW"
+            ],
+            "levels": [
+              {
+                "level_code": [
+                  "1"
+                ],
+                "childquestion": "How many hours of work or school did you miss while caring for the person you take care of, either taking them to unexpected dental visits, or staying home with them due to pain and discomfort in their mouth?",
+                "level_description": [
+                  "1.0-4 hours",
+                  "2.5-8 hours",
+                  "3.1 Day",
+                  "4.2 Days",
+                  "5.3-5 days",
+                  "6.6 or more days"
+                ],
+                "levels": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Did the person you give care to receive sedation at a dental visit in the last two years?",
+        "level_description": [
+          "1.YES",
+          "2.NO",
+          "77. DON’T KNOW"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "1"
+            ],
+            "childquestion": "Where did the sedation of the person you take care of occur?",
+            "level_description": [
+              "1.Dental office",
+              "2.Hospital setting",
+              "3.Other, please specify: [TEXTBOX]"
+            ],
+            "levels": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Have you ever served on active duty in the U.S. Armed Forces, Military Reserves, or National Guard? Active duty does not include training for the Reserves or National Guard, but <u>does</u> include activation, for example, for service in the U.S. or in a foreign country, in support of military or humanitarian operations.",
+    "level_description": [
+      "1.YES",
+      "2.NO"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Are you currently on active duty in the U.S. Armed Forces, Military Reserves, or National Guard?",
+        "level_description": [
+          "1.YES",
+          "2.NO"
+        ],
+        "levels": [
+          {
+            "level_code": [
+              "2"
+            ],
+            "childquestion": "Do you qualify for VA dental care?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77. YOU DON’T KNOW"
+            ],
+            "levels": []
+          },
+          {
+            "level_code": [
+              "2"
+            ],
+            "childquestion": "Do you qualify for VA medical care?",
+            "level_description": [
+              "1.YES",
+              "2.NO",
+              "77. YOU DON’T KNOW"
+            ],
+            "levels": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Generally speaking, do you consider yourself to be a liberal, moderate, or conservative?",
+    "level_description": [
+      "1. LIBERAL",
+      "2. MODERATE",
+      "3. CONSERVATIVE"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "1"
+        ],
+        "childquestion": "Do you consider yourself:",
+        "level_description": [
+          "1. Very liberal",
+          "2. Somewhat liberal"
+        ],
+        "levels": []
+      },
+      {
+        "level_code": [
+          "3"
+        ],
+        "childquestion": "Do you consider yourself:",
+        "level_description": [
+          "1. Very conservative",
+          "2. Somewhat conservative"
+        ],
+        "levels": []
+      }
+    ]
+  },
+  {
+    "question": "Has a doctor ever told you that you had any of the following conditions?",
+    "level_description": [
+      "1.High blood pressure or hypertension",
+      "2.Diabetes or high blood sugar",
+      "3.High blood cholesterol level ",
+      "4.Cancer or a malignant tumor, excluding minor skin cancer",
+      "5.Lung disease such as chronic bronchitis or emphysema",
+      "6.A heart attack, coronary heart disease, angina, congestive heart failure, or other heart problems ",
+      "7.A stroke",
+      "8.Any emotional, nervous, or psychiatric condition",
+      "9.Alzheimer’s disease ",
+      "10.Dementia, senility or any other serious memory impairment ",
+      "11.Arthritis or rheumatism ",
+      "12.Other, please specify: [TEXTBOX]",
+      "13.None of the above [SP]"
+    ],
+    "levels": [
+      {
+        "level_code": [
+          "8"
+        ],
+        "childquestion": "Have you ever been diagnosed with an anxiety disorder?",
+        "level_description": [
+          "1.YES",
+          "2.NO"
+        ],
+        "levels": []
+      }
+    ]
+  }
+]

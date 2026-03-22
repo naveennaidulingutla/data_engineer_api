@@ -1,0 +1,257 @@
+[
+  {
+    "name": "AI_SEARCH_API_KEY",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "AI_SEARCH_ENDPOINT",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DATABRICKS_HOSTNAME",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "SQL_WAREHOUSE_LINK",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DATABRICKS_TOKEN",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DATABRICKS_CATALOG_NAME",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "COSMOS_DB_URI",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "COSMOS_DB_KEY",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "COSMOS_DB_NAME",
+    "value": "backend-ai-data-explorer",
+    "slotSetting": false
+  },
+  {
+    "name": "LLM_Config",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+ 
+  {
+    "name": "SEMANTIC_AI_SEARCH_INDEX",
+    "value": "source-catalog-ai-data-explorer",
+    "slotSetting": false
+  },
+  {
+    "name": "MEDICAL_CODE_INDEX",
+    "value": "medical-code-ai-data-explorer",
+    "slotSetting": false
+  },
+  {
+    "name": "AD_TENANT_ID",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "AD_CLIENT_ID",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "AD_CLIENT_SECRET",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DE_AIDataExplorer_User",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DE_Internal_User",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DE_Approvers",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  
+  {
+    "name": "DE_External_User",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DE_Admin_User",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  
+  {
+    "name": "Databricks_Merative_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "Databricks_Merative_Writer",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DataLake_Merative_Ingestor",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  
+  {
+    "name": "Databricks_HCN_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "Databricks_HCN_Writer",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DataLake_HCN_Ingestor",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DataLake_Survey_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DataLake_Survey_Writer",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DataLake_Survey_Ingestor",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "Databricks_Survey_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  
+  {
+    "name": "Databricks_Survey_Writer",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "Databricks_CQIP_Merative_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "Databricks_CQIP_HCN_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "Databricks_CQIP_Surveys_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  
+  {
+    "name": "Databricks_SOHEA_Survey_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "Databricks_SOHEA_Survey_Writer",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+    {
+    "name": "Databricks_CQIP_DDMA_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "Databricks_DDMA_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  
+  {
+    "name": "Databricks_DDMA_Writer",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  
+  {
+    "name": "DataLake_DDMA_Ingestor",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+    {
+    "name": "DataLake_External_User_DDMA_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DataLake_External_User_Merative_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+
+  {
+    "name": "DataLake_External_User_HCN_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name": "DataLake_External_User_Surveys_Reader",
+    "value": "FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+  {
+    "name":"DataLake_External_User_SOHEA_Survey_Reader",
+    "value":"FETCH_FROM_AKV",
+    "slotSetting":false
+  },
+  {
+    "name":"APPLICATION_INSIGHTS_INSTRUMENTATION_KEY",
+    "value":"FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+   {
+    "name":"DE_AIResearchExplorer_User",
+    "value":"FETCH_FROM_AKV",
+    "slotSetting": false
+  },
+   {
+    "name":"RESEARCH_AI_INDEX",
+    "value":"document-content-research-explorer",
+    "slotSetting": false
+  },
+  {
+    "name":"RESEARCH_AI_SECTION_INDEX",
+    "value":"section-content-research-explorer",
+    "slotSetting": false
+  }
+ 
+]

@@ -1,0 +1,8 @@
+# Ignore log files
+app.log*
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.env
+*venv
+app.log
+*test_results_*.xlsx
